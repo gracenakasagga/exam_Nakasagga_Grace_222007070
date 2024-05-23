@@ -1,0 +1,296 @@
+html,body{
+  height: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background-color: aqua;
+}
+nav {
+  background-color: black;
+}
+nav:after{
+  content: '';
+  clear: both;
+  display: table;
+}
+nav .logo{
+  float: center;
+  color: green;
+  font-size: 30px;
+  font-weight: 300PX;
+  line-height: 90px;
+  padding-left: 400px;
+}
+nav ul{
+  float: left;
+  list-style: none;
+  margin-right: 40px;
+  position: relative;
+}
+nav ul li {
+  float: right;
+  display:inline-block;
+  background: black;
+  margin: O 5px;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  line-height: 85px;
+  font-size: 18px;
+  padding: 7px 15px;
+}
+nav ul li a:hover{
+  box-shadow: 0 0 5px #33ffff;
+  box-shadow: 0 0 5px #66ffff;
+  border-radius: 7px;
+  color: rgb(223, 13, 171);
+}
+nav ul ul{
+  position: absolute;
+  top: 60px;
+  opacity:0;
+  visibility: hidden;
+  transform: top .5s;
+}
+nav ul li:hover >ul {
+  opacity: 1;
+  visibility: visible;
+}
+nav ul ul li{
+  position: relative;
+  margin: 0px;
+  float: none;
+  display: list-item;
+  border-bottom: 1px solid rgbs(0,0,0,0.3);
+  width: 150px;
+}
+@keyframes slideup{
+  0% {
+    opacity:0;
+    transform: translateY(18px);
+  }
+  100%{
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes slideleft {
+0%{
+  opacity: 0;
+  transform: translateX(18px);
+}
+100%{
+  opacity: 1;
+  transform: none;
+}
+}
+.container{
+  display: flex;
+  padding: 3px;
+}
+.image-container{
+  padding: 40px;
+}
+.resized_image{
+  width: 800px;
+}
+.container_1{
+  display: flex;
+  padding: 5px;
+}
+.image-container_1{
+  padding: 5px;
+}
+.resized_image_1{
+  width: 300px;
+  align-items: right;
+  height: 500px;
+}
+.text_container_1{
+padding-left: 30px;
+}
+.container_2{
+  display: flex;
+  padding: 5px;
+}
+.image-container_2{
+  padding: 5px;
+}
+.resized_image_2{
+  width: 300px;
+  align-items: right;
+  height: 500px;
+}
+.container_3{
+  display: flex;
+  padding: 5px;
+}
+.image-container_3{
+  padding: 5px;
+}
+.resized_image_3{
+  width: 300px;
+  align-items: right;
+  height: 500px;
+}
+.container_4{
+  display: flex;
+  padding: 5px;
+}
+.image-container_4{
+  padding: 5px;
+}
+.resized_image_4{
+  width: 300px;
+  align-items: right;
+  height: 300px;
+}
+.container_5{
+  display: flex;
+  padding: 5px;
+}
+.image-container_5{
+  padding: 5px;
+}
+.resized_image_5{
+  width: 300px;
+  align-items: right;
+  height: 300px;
+}
+.container_6{
+  display: flex;
+  padding: 5px;
+}
+.image-container_6{
+  padding: 5px;
+}
+.resized_image_6{
+  width: 300px;
+  align-items: right;
+  height: 300px;
+}
+.container_7{
+  display: flex;
+}
+.image-container_7{
+  padding: 40px;
+}
+ .resized_image_7{
+  width:300px;
+  align-items:right;
+  height: 300px;
+}
+.container_7a{
+  display: flex;
+  padding: 40px;
+}
+.container_7a ul{
+  padding: 10px;
+}
+.container_7{
+  display: flex;
+}
+.image-container{
+  padding: 40px;
+}
+ .resized_image{
+  width:300px;
+  align-items:right;
+  height: 300px;
+}
+.image-container{
+  padding: 40px;
+}
+ .resized_image{
+  width:300px;
+  align-items:right;
+  height: 300px;
+}
+.image-container{
+  padding: 40px;
+}
+ .resized_image{
+  width:300px;
+  align-items:right;
+  height: 300px;
+}
+.image-container{
+  padding: 40px;
+}
+ .resized_image{
+  width:300px;
+  align-items:right;
+  height: 300px;
+}
+.image-container{
+  padding: 40px;
+}
+ .resized_image{
+  width:300px;
+  align-items:right;
+  height: 300px;
+}
+.image-container{
+  padding: 40px;
+}
+ .resized_image{
+  width:300px;
+  align-items:right;
+  height: 300px;
+}
+.container8{
+  width: 100px;
+}
+.resized_image8{
+  width: 1262px;
+}
+.container9{
+  background-color: #fff;
+}
+.text_container9{
+  padding-left: 120px;
+}
+.text_container9 p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 200px;
+}
+.container10{
+  padding: 0;
+}
+.text_container10{
+  padding-left: 400px;
+  padding-top: 30px;
+}
+.text_container10 h{
+  align-items: center;
+  padding-left: 80px;
+  padding-bottom: 50px;
+}
+.container_0{
+  padding: 20px;
+  padding-left: 200px;
+}
+.text_container_0 h{
+  padding-left: 300px;
+  display: block;
+}
+.text_container_0 p b{
+  padding-left: 200px;
+}
+.container_d{
+  display: flex;
+}
+.text_container_d{
+  padding: 15px;
+}
+
+
+
+
